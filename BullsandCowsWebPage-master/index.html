@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="bodyf">
+<head>
+	<meta charset="utf-8">
+	<title>Bulls and Cows</title>
+	<link rel="stylesheet" href="css/BullsandCows.css"/>
+	<script type="text/javascript" src="js/BullsandCows.js"></script>
+</head>
+<body onload="reset()">
+<div id="header">
+<br>
+	<h1 id="bord">Bulls and Cows</h1><br>
+<br>
+
+	<nav >
+		<a href="" ><b id="bold">New Game</b></a>
+		<a href="BullsandCowsIn.html" target="_blank"><b id ="strong">Instructions</b></a>
+	</nav>
+</div>
+<div id="win">
+<h2>Congrats!!!
+You have completed the Game</h2>
+<h3 id="turn">turns</h3>
+</div>
+<div id="start">
+	<h2><marquee behavior="alternate">Welcome</marquee></h2>
+	<h3 id="h33">Choose  Level</h3>
+	<button onclick="start3()" >Easy</button><br>
+	<button onclick="start4()">Hard</button>
+</div>
+<main id="main">
+	<h3><button onclick="playbullsandcows()"  id="guess">Make your Guess</button></b></h3>
+	<button onclick="printguess()"  id="guess">View Previous Guess</button>
+	<br/>
+	<table>
+		<tr><th>Guesses Made</th></tr>
+		<tr><td id="chance">0</td></tr>
+	</table>
+	<br/>
+	<br/>
+	<table>
+		<tr><th>Bulls</th></tr>
+		<tr><td id="bulls">0</td></tr>
+	</table>
+	<table>
+		<tr><th>Cows</th></tr>
+		<tr><td id="cows">0</td></tr>
+	</table>
+</main>
+</body>
+</html>

@@ -1,0 +1,178 @@
+.bodyf{
+	background: url("../images/123.jpg");
+	
+                  	background-size:cover;
+
+                  
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
+#header{
+	
+	color:rgb(3, 6, 75);
+	 font-size: 25px;
+}
+#bord{
+                     border:1px,solid,black;
+                       padding:10px;
+                     margin:18px;
+background-color:white;
+border-radius: 25%;
+display:inline;
+text-shadow:4px 4px green;
+}
+
+
+#bold{
+                     border:2px,solid,black;
+                       padding:10px;
+                     margin:16px;
+background-color:rgb(14, 247, 225);
+border-radius: 30%;
+font-size:20px;
+text-shadow:2px 2px darkred;
+
+                  }
+
+
+#strong{
+                 background-image:url(111.jpg);
+
+                     border:2px,solid,black;
+                       padding:10px;
+                     margin:16px;
+background-color:rgb(14, 247, 225);
+border-radius: 30%;
+font-size:20px;
+text-shadow:2px 2px darkred;
+
+                  }
+a{
+	color: rgb(223, 19, 75);
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	text-decoration: none;
+}
+a:hover{
+	color:rgb(247, 154, 15);
+}
+button{
+	font-family: "times new roman";
+	background: rgb(180, 165, 247);
+	color:rgb(0, 2, 14);
+	border-color: #FFFFFF;
+	display: inline-block;
+	height: 8vh;
+	width: 25%;
+	margin: 3%;
+	border-radius: 10px;
+	font-size: 30px;
+	border-width: 0px;
+text-shadow:1px 1px black;
+box-shadow: 0px 8px 20px 10px rgba(0, 0, 0, 0.4),0px 8px 12px 10px rgba(0, 0, 0, 0.4) ;
+}
+button:hover{
+	background:rgb(159, 231, 61);
+	color:rgb(218, 29, 4);
+text-shadow:1px 1px darkred;
+}
+table{
+	background: rgb(252, 175, 226);
+	display: inline-block;
+	margin: 0 5%;
+	border: solid;
+	border-width: 0px;
+	padding: 15px;
+	border-radius: 10px;
+}
+th{
+	color: #FFFFFF;
+	background-color: rgb(15, 162, 22);
+}
+td{
+	color: black;
+}
+#main{
+	display: none;
+
+}
+#win{
+	display: none;
+	margin-top: 5%;
+	color: white;
+}
+details{
+	background: black;
+	padding: 2px;
+	color: ghostwhite;
+	border: solid;
+	border-width: 2px;
+	border-radius: 10px;
+}
+summary{
+	color: ghostwhite;
+}
+summary:hover{
+	color: rgb(30, 251, 43);
+}
+p{
+	text-align: justify;
+	
+}
+#start{
+	margin: 5%;
+	display: block;
+                  color:rgb(12, 229, 36);
+                    
+                 text-shadow:2px 2px rgb(13, 15, 148);
+                 font-size:35px;
+}
+#h33{
+        font-size:35px;
+ color:rgb(5, 252, 248);
+  text-shadow:3px 3px rgb(18, 1, 11);
+}
+.inst{
+	background: url("../images/159.jpg");
+	background-size: cover;
+background-attachment: fixed;
+
+	background-repeat: no-repeat;
+	font-family: "Comic Sans MS";
+	text-align: center;
+}
+#guess{
+	background: rgb(252, 170, 119);
+	color:rgb(0, 2, 14);
+	font-size: 25px;
+
+}
+#chance{
+	 background-color: rgb(73, 72, 243);
+	 color: black;
+}
+#bulls{
+	background-color: rgb(73, 72, 243);
+	 color: black;
+
+}
+#cows{
+	background-color: rgb(73, 72, 243);
+	 color: black;
+}
+#hea{
+	font-size: 20px;
+	color:rgb(142, 2, 168);
+	text-shadow: 3px 3px black;
+}
+
+
+}
+
+           
+
+                    
